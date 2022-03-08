@@ -24,7 +24,9 @@ export default class Nav extends Component {
         <li className="nav-item">
           <NavLink className=" nav-link vip " activeClassName="active" aria-current="page" to="/contact">Contact</NavLink>
         </li>
-     
+        <li className="nav-item">
+          <NavLink className=" nav-link vip " activeClassName="active" aria-current="page" to="/mahmoud">mahmoud</NavLink>
+        </li>
      
      
       </ul>
