@@ -1,0 +1,29 @@
+.about-back{
+  
+    background: #1abc9c;
+    z-index: -1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon2{
+    position: relative;
+}
+.icon2::after{
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 52%;
+    width: 70px;
+    height: 2px;
+    background-color: white;
+}
+.icon2::before{
+    content: "";
+    position: absolute;
+    top: 50%;
+    right:  52%;
+    width: 70px;
+    height: 2px;
+    background-color: white;
+}

@@ -1,0 +1,23 @@
+.con .icon-cont{
+    position: relative;
+color:#1a252f;
+
+}
+.con .icon-cont::after{
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 52%;
+    width: 70px;
+    height: 2px;
+    background-color: #1a252f;
+}
+.con .icon-cont::before{
+    content: "";
+    position: absolute;
+    top: 50%;
+    right:  52%;
+    width: 70px;
+    height: 2px;
+    background-color: #1a252f;
+}
